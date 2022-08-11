@@ -167,7 +167,7 @@ section{
 	font-size: 15px;
 	letter-spacing: 1px;
 	font-weight: 600;
-	border-radius: 5px;
+	border-radius: 50px;
 	transition: all .35s ease;
 }
 .btn:hover{
@@ -383,7 +383,7 @@ header.sticky{
 	background: var(--text-color);
 }
 .last-text p{
-	color: #555;
+	color: rgb(85, 85, 85);
 	font-size: 14px;
 	letter-spacing: 1px;
 }
@@ -457,7 +457,7 @@ header.sticky{
 .form form input{
 	width: 100%;
 	display: block;
-	border: 1px solid #000;
+	border: 1px solid #28a434;
 	border-radius: 50px;
 	padding: 20px 16px;
 	margin: 20px auto;
