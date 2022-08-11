@@ -18,6 +18,16 @@ function loginToggle(){
 	popup.classList.toggle('active');
  }
 
+ menu.onclick = () => {
+	menu.classList.toggle('bx-x');
+	navlist.classList.toggle('open');
+};
+
+window.onscroll = () => {
+	menu.classList.remove('bx-x');
+	navlist.classList.remove('open');
+};
+
 const sr = ScrollReveal ({
 	distance: '30px',
 	duration: 1600,
